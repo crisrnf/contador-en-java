@@ -1,0 +1,8 @@
+# Example config properties for DB (copy to src/main/resources/config.properties and change values)
+db.type=h2
+# For H2 embedded (default) the URL example below creates a local file-based DB under ./data/simple_auth
+db.url=jdbc:h2:./data/simple_auth;AUTO_SERVER=TRUE
+db.user=
+db.password=
+
+# If you prefer to run using another JDBC (e.g. MySQL), set db.type=mysql and update db.url/user/password accordingly.

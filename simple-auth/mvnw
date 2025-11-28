@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Maven Wrapper launcher - runs the embedded wrapper jar which downloads/executes Maven
+BASEDIR=$(cd "$(dirname "$0")" && pwd)
+exec java -jar "$BASEDIR/.mvn/wrapper/maven-wrapper.jar" "$@"
